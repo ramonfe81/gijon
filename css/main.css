@@ -1,0 +1,63 @@
+.maincontent {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    max-width: 50%;
+    padding-left: 25%;
+    display: block;
+}
+img {
+
+    margin: 18px auto;
+    clear: both;
+    display: block;
+    border-radius: 9px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+p {
+    margin-bottom: 1.5rem;
+    font-size: 1.125rem;
+}
+.indice {
+    background: #f9f9f9;
+    border: 1px solid #aaa;
+    padding: 10px;
+    margin-bottom: 1em;
+    width: auto;
+    display: table;
+    font-size: 95%;
+}
+.h2indice {
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    text-shadow: none;
+    color: #d13636;
+}
+h1 {
+    text-align: center;
+    border-bottom: 1px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+}
+h2 {
+    text-align: center;
+    border-bottom: 1px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+}
+.tabla  {border-collapse:collapse;border-spacing:0;border-color:#bbb;}
+.tabla td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;}
+.tabla th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#493F3F;background-color:#9DE0AD;}
+.tabla .tabla-a{background-color:#C2FFD6;border-color:inherit;text-align:left;vertical-align:top}
+.tabla .tabla-c{border-color:inherit;text-align:left}
+.tabla .tabla-b{border-color:inherit;text-align:left;vertical-align:top}
+
+@media only screen and (max-width: 768px) {
+    .maincontent {
+        max-width: 100%;
+        padding-left: 0%;
+    }
+  }
